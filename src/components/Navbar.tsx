@@ -70,12 +70,6 @@ const Navbar = () => {
             >
               Contact
             </button>
-            <Button
-              onClick={() => scrollToSection("contact")}
-              className="bg-gold hover:bg-gold-dark text-charcoal font-semibold"
-            >
-              Book a Table
-            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -120,12 +114,6 @@ const Navbar = () => {
             >
               Contact
             </button>
-            <Button
-              onClick={() => scrollToSection("contact")}
-              className="w-full bg-gold hover:bg-gold-dark text-charcoal font-semibold"
-            >
-              Book a Table
-            </Button>
           </div>
         )}
       </div>
