@@ -31,19 +31,12 @@ const Hero = () => {
           Experience signature dishes and premium drinks at Bloemfontein's premier bar and restaurant. 
           Where exceptional cuisine meets vibrant atmosphere.
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in">
+        <div className="flex justify-center animate-fade-in">
           <Button
             onClick={() => scrollToSection("menu")}
             className="bg-gold hover:bg-gold-dark text-charcoal font-semibold text-lg px-8 py-6"
           >
             View Menu
-          </Button>
-          <Button
-            onClick={() => scrollToSection("contact")}
-            variant="outline"
-            className="border-2 border-gold text-gold hover:bg-gold hover:text-charcoal font-semibold text-lg px-8 py-6"
-          >
-            Book a Table
           </Button>
         </div>
       </div>
